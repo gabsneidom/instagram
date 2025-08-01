@@ -1,0 +1,22 @@
+#container {
+    width: 935px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-family: Encode Sans
+}
+
+#sidebar {
+    width: 193px;
+}
+
+@media (max-width: 935px) {
+    /*Sem side bar*/
+
+}
+
+
+@media (max-width: 614px) {
+    /*Mobile*/
+
+}
