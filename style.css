@@ -1,3 +1,8 @@
+#logo {
+    width: 100px;
+    height: auto;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -12,6 +17,23 @@ header {
     justify-content: center;
     font-family: Encode Sans
 }
+
+
+#publicacaobotao button {
+    border: none;
+    background-color: white;
+    color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    background-color: none;
+}
+
 
 #sidebar {
     width: 193px;
