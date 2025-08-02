@@ -1,13 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
 #container {
     width: 935px;
     display: flex;
     justify-content: center;
-    align-items: start;
     font-family: Encode Sans
 }
 
 #sidebar {
     width: 193px;
+}
+
+nav {
+    display: flex;
+    overflow-y: scroll;
+}
+
+nav img {
+    border-radius: 40%;
 }
 
 @media (max-width: 935px) {
