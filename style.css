@@ -26,10 +26,16 @@ header ion-icon {
 }
 
 #container {
-    width: 935px;
+    background-color: red;
     display: flex;
     justify-content: center;
     font-family: Encode Sans
+}
+
+#stories-box {
+    width: 614px;
+    height: 118px;
+    background-color: grey;
 }
 
 
