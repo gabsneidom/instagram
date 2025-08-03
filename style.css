@@ -1,15 +1,29 @@
 #logo {
-    width: 100px;
-    height: auto;
+    width: 103px;
+    height: 29px;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 54px;
+    justify-content: center;
+    border: 1px;
+    border-style: solid;
+    border-color: #DBDBDB;
+    background-color: #FFFFFF;
 }
 
+#central-header {
+    width: 935px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+header ion-icon {
+    padding: 10px;
+    border-radius: 100%;
+}
 
 #container {
     width: 935px;
