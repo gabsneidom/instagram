@@ -38,7 +38,8 @@ header ion-icon {
     font-family: Encode Sans
 }
 
-#stories-box {
+#story-box {
+    padding-top: 88px;
     width: 614px;
     height: 118px;
 }
@@ -66,7 +67,7 @@ button {
 
 nav {
     display: flex;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 nav img {
